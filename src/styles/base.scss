@@ -22,5 +22,16 @@ body {
 }
 
 .container {
-  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1380px;
+}
+
+.menu-active {
+  left: 0;
+}
+
+.noscroll {
+  overflow: hidden;
+  height: 100%;
 }

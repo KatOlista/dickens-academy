@@ -1,1 +1,58 @@
-.header {}
+.header {
+  padding: 16px 0;
+  position: fixed;
+  width: 100%;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+  }
+
+  &__link {
+    display: flex;
+    max-width: 48px;
+  }
+
+  &__logo {
+    width: 100%;
+  }
+
+  &__icon {
+    width: 0;
+    stroke: var(--darkBlue100);
+    transition:
+      stroke 0.15s ease,
+      transform 0.3s ease;
+  }
+
+  &__icon:active {
+    stroke: var(--darkBlue50);
+  }
+
+  &__show {
+    width: 100%;
+    transform: rotate(360deg) scale(0.9);
+  }
+
+  &__login {
+    padding: 8px 14px;
+    border-radius: 14px;
+    font-size: 16px;
+    color: #fff;
+    background-color: var(--darkBlue100);
+  }
+
+  @media (min-width: 768px) {
+    &__login {
+      padding: 14px 30px;
+      border-radius: 14px;
+      font-size: 20px;
+    }
+
+    &__button {
+      display: none;
+    }
+  }
+}
