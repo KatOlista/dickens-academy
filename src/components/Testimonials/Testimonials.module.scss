@@ -1,0 +1,65 @@
+.testimonials {
+  padding-block: 50px;
+
+  &__slider {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  &__buttons {
+    padding: 12px;
+    margin: 0 auto;
+    max-width: 220px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--darkBlue25);
+    border-radius: 100px;
+  }
+
+  &__icon {
+    transform: rotate(180deg);
+  }
+
+  &__bullets {
+    padding: 12px;
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+  }
+
+  &__bullet {
+    display: block;
+    width: 13px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--blue100);
+  }
+
+  &__bullet-active {
+    width: 24px;
+    background-color: var(--darkBlue100);
+  }
+
+  &__button-next,
+  &__button-prev {
+    width: 32px;
+    height: 32px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--darkBlue50);
+    stroke: var(--white);
+
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: var(--darkBlue100);
+    }
+
+    &:active {
+      background-color: var(--darkBlue100);
+    }
+  }
+}

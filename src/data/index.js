@@ -1,4 +1,6 @@
-export const slidesPerView = 2;
+import ShePhoto from '../assets/images/she.webp';
+import HePhoto from '../assets/images/he.webp';
+import StarsImg from '../assets/images/stars.png';
 
 export const COURSES = [
   {
@@ -81,4 +83,37 @@ export const COURSES = [
   }
 ];
 
-export const TESTIMONIALS = [];
+export const TESTIMONIALS = [
+  {
+    id: 1,
+    name: 'Name',
+    role: 'Role Here',
+    stars: StarsImg,
+    photo: ShePhoto,
+    feedback: 'Lorem ipsum dolor sit amet consectetur. Sed commodo lorem sit nec ut. Habitant mattis in vitae sagittis maecenas sed. Sed sit posuere sed sit rhoncus. Nunc leo eu volutpat laoreet est arcu odio vitae egestas. Porttitor urna.'
+  },
+  {
+    id: 2,
+    name: 'Name',
+    role: 'Role Here',
+    stars: StarsImg,
+    photo: HePhoto,
+    feedback: 'Lorem ipsum dolor sit amet consectetur. Sed commodo lorem sit nec ut. Habitant mattis in vitae sagittis maecenas sed. Sed sit posuere sed sit rhoncus. Nunc leo eu volutpat laoreet est arcu odio vitae egestas. Porttitor urna.'
+  },
+  {
+    id: 3,
+    name: 'Name',
+    role: 'Role Here',
+    stars: StarsImg,
+    photo: ShePhoto,
+    feedback: 'Lorem ipsum dolor sit amet consectetur. Sed commodo lorem sit nec ut. Habitant mattis in vitae sagittis maecenas sed. Sed sit posuere sed sit rhoncus. Nunc leo eu volutpat laoreet est arcu odio vitae egestas. Porttitor urna.'
+  },
+  {
+    id: 4,
+    name: 'Name',
+    role: 'Role Here',
+    stars: StarsImg,
+    photo: HePhoto,
+    feedback: 'Lorem ipsum dolor sit amet consectetur. Sed commodo lorem sit nec ut. Habitant mattis in vitae sagittis maecenas sed. Sed sit posuere sed sit rhoncus. Nunc leo eu volutpat laoreet est arcu odio vitae egestas. Porttitor urna.'
+  }
+];

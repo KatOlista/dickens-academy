@@ -15,4 +15,5 @@ export { Testimonials } from './Testimonials/Testimonials';
 export { ProgrammItem } from './ProgrammItem/ProgrammItem';
 export { LinkWithArrow } from './UI/LinkWithArrow/LinkWithArrow';
 export { AdvantagesCard } from './AdvantagesCard/AdvantagesCard';
-// export { Testimonials } from './Testimonials/Testimonials';
+export { TestimonialSliderCard } from './TestimonialSliderCard/TestimonialSliderCard';
+// export { TestimonialSliderCard } from './TestimonialSliderCard/TestimonialSliderCard';
