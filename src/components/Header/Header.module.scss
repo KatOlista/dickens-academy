@@ -12,6 +12,8 @@
   &__link {
     display: flex;
     max-width: 48px;
+
+    transition: all 0.3s ease;
   }
 
   &__logo {
@@ -50,6 +52,12 @@
   }
 
   @media (min-width: 990px) {
+    &__link {
+      &:hover {
+        transform: rotate(360deg);
+      }
+    }
+
     &__login {
       padding: 10px 20px;
       border-radius: 14px;

@@ -12,10 +12,11 @@ export const Button = ({
   children,
   buttonClassName,
   onClick,
+  type = 'button'
 }) => {
   return (
     <button
-      type="button"
+      type={type}
       onClick={onClick}
       style={buttonStyle}
       className={buttonClassName}

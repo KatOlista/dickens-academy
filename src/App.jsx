@@ -1,4 +1,12 @@
-import { Advantages, Header, Hero } from './components/'
+import {
+  About,
+  Advantages,
+  Contact,
+  Courses,
+  Header,
+  Hero,
+  Testimonials
+} from './components/'
 
 import './App.scss'
 
@@ -11,6 +19,14 @@ export const App = () => {
       <Hero />
 
       <Advantages />
+
+      <About />
+
+      <Courses />
+
+      <Contact />
+
+      <Testimonials />
     </>
   )
 }

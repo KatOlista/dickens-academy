@@ -1,0 +1,161 @@
+.about {
+  padding-block: 30px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__content {
+    padding-top: 10px;
+  }
+
+  &__picture {
+    flex: 50%;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__info {
+    padding-top: 15px;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--white);
+  }
+
+  &__team {
+    padding: 20px 15px;
+    border-radius: 14px;
+    background-color: var(--darkBlue100);
+    text-align: left;
+  }
+
+  &__title {
+    padding-bottom: 10px;
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: uppercase;
+  }
+
+  &__results {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  &__result {
+    padding: 15px 15px;
+    flex: 40%;
+    border-radius: 14px;
+    background-color: var(--darkBlue100);
+
+    span {
+      font-family: var(--second-family);
+      font-size: 22px;
+      line-height: 150%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    padding-block: 50px;
+
+    &__title {
+      font-size: 30px;
+    }
+
+    &__results {
+      padding-top: 30px;
+      display: flex;
+      gap: 24px;
+    }
+
+    &__result {
+      padding: 40px 12%;
+
+      span {
+        font-size: 28px;
+      }
+    }
+  }
+
+  @media (min-width: 990px) {
+    &__content {
+      padding-top: 20px;
+      display: flex;
+      gap: 25px;
+      align-items: stretch;
+      justify-content: space-between;
+    }
+
+    &__image {
+      object-fit: cover;
+      height: 100%;
+    }
+
+    &__info {
+      padding-top: 0;
+    }
+
+    &__team {
+      p {
+        font-size: 14px;
+      }
+    }
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__results {
+      padding-top: 20px;
+      display: flex;
+      gap: 24px;
+    }
+
+    &__result {
+      padding: 25px 5%;
+
+      span {
+        font-size: 28px;
+      }
+    }
+  }
+
+  @media (min-width: 1440px) {
+    &__team {
+      padding: 40px 32px 40px 34px;
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    &__title {
+      padding-bottom: 20px;
+      font-size: 36px;
+    }
+
+    &__result {
+      padding: 40px 12% 50px;
+      flex: 40%;
+      border-radius: 14px;
+      background-color: var(--darkBlue100);
+
+      span {
+        font-family: var(--second-family);
+        font-size: 42px;
+        line-height: 150%;
+      }
+    }
+  }
+}

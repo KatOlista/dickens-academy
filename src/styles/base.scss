@@ -11,6 +11,14 @@ body {
   color: var(--black);
 }
 
+button {
+  transition: all 0.3s ease;
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
 #root {
   width: 100%;
   margin: 0 auto;
@@ -23,7 +31,7 @@ body {
 
 .container {
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
   max-width: 1380px;
 }
 
@@ -42,8 +50,26 @@ body {
   }
 }
 
+@media (min-width: 990px) {
+  button {
+
+    &:hover {
+      transform: scale(1.03);
+    }
+
+    &:active {
+      transform: scale(0.95);
+      background-color: var(--darkBlue75);
+    }
+  }
+}
+
 @media (min-width: 1024px) {
   body {
     font-size: 18px;
+  }
+
+  .container {
+    padding: 0 20px;
   }
 }

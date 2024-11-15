@@ -6,7 +6,7 @@ import heroImg from '../../assets/images/hero.webp'
 
 export const Hero = () => {
   return (
-    <section className={styles.hero}>
+    <section id='Home' className={styles.hero}>
       <div className='container'>
         <div className={styles.hero__content}>
           <div className={styles.hero__info}>

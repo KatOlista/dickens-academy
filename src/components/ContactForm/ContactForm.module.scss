@@ -1,0 +1,25 @@
+.form {
+  text-align: left;
+
+  &__inputs {
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__input {
+    padding: 18px 14px;
+    display: block;
+    border-radius: 4px;
+    width: 100%;
+    background-color: var(--white);
+  }
+
+  &__submit {
+    padding: 14px 20px;
+    border-radius: 14px;
+    background-color: var(--white);
+    color: var(--darkBlue100);
+  }
+}

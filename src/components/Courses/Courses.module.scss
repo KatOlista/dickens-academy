@@ -1,0 +1,20 @@
+.courses {
+  padding-top: 30px;
+  padding-bottom: 60px;
+
+  &__list {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  @media (min-width: 990px) {
+    padding-top: 50px;
+    padding-bottom: 90px;
+  }
+
+  @media (min-width: 1440px) {
+    padding-bottom: 120px;
+  }
+}

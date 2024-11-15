@@ -1,0 +1,136 @@
+.item {
+  padding: 40px 15px;
+  border: 2px solid var(--darkBlue100);
+  border-radius: 20px;
+  text-align: left;
+
+  &__header {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    span {
+      padding: 10px;
+      display: flex;
+      width: 40px;
+      height: 40px;
+      aspect-ratio: 1;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      background-color: var(--darkBlue100);
+    }
+  }
+
+  &__icons {
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    li {
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-radius: 45px;
+      background-color: var(--blue25);
+    }
+  }
+
+  &__subtitle {
+    padding-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--darkBlue100);
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__price {
+    padding-top: 24px;
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--darkBlue100);
+
+    span {
+      padding-inline: 10px;
+      text-align: right;
+    }
+
+    span:first-child {
+      padding-left: 0;
+      text-align: left;
+      border-right: 2px solid var(--darkBlue100);
+    }
+  }
+
+  &__join {
+    padding: 14px;
+    width: 100%;
+    border-radius: 14px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: var(--darkBlue100);
+    color: var(--white);
+  }
+
+  @media (min-width: 768px) {
+    &__join {
+      padding: 14px 86px;
+      width: auto;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    &__header {
+      padding-bottom: 40px;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    &__title {
+      gap: 14px;
+
+      span {
+        padding: 16px;
+        width: 60px;
+        height: 60px;;
+      }
+    }
+
+    &__icons {
+      padding-bottom: 40px;
+    }
+
+    &__subtitle {
+      font-size: 20px;;
+    }
+
+    &__price {
+      font-size: 30px;
+
+      span {
+        padding-inline: 16px;
+      }
+    }
+
+    &__join {
+      font-size: 20px;
+    }
+  }
+}
