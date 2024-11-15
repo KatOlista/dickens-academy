@@ -1,0 +1,15 @@
+.subtitle {
+  text-transform: uppercase;
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--darkBlue100);
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 24px;
+  }
+}

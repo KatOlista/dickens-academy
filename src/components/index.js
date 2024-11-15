@@ -1,5 +1,10 @@
 export { Menu } from './Menu/Menu';
+export { Hero } from './Hero/Hero';
+export { Title } from './UI/Title/Title';
 export { Header } from './Header/Header';
 export { Button } from './UI/Button/Button';
+export { Subtitle } from './UI/Subtitle/Subtitle';
 export { Navigation } from './Navigation/Navigation';
-// export { Menu } from './Menu/Menu';
+export { Advantages } from './Advantages/Advantages';
+export { AdvantagesCard } from './AdvantagesCard/AdvantagesCard';
+// export { AdvantagesCard } from './AdvantagesCard/AdvantagesCard';

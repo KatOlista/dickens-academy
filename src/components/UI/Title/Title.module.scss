@@ -1,0 +1,16 @@
+.title {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--darkBlue100);
+
+  @media (min-width: 768px) {
+    font-size: 28px;
+  }
+
+  @media (min-width: 1440px) {
+    font-size: 42px;
+  }
+}
