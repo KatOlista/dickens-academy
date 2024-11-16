@@ -1,9 +1,10 @@
 import { useState } from 'react'
+
 import { Button, Input } from '..'
 
-import styles from './ContactForm.module.scss'
+import styles from './FaqForm.module.scss'
 
-export const ContactForm = () => {
+export const FaqForm = () => {
   const [nameInputValue, setNameInputValue] = useState('');
   const [emailInputValue, setEmailInputValue] = useState('');
 
@@ -13,6 +14,10 @@ export const ContactForm = () => {
 
   return (
     <form onSubmit={submitFormHandler} className={styles.form}>
+      <h3 className={styles.form__title}>Ask your question</h3>
+
+      <hr className={styles.form__hr} />
+
       <div className={styles.form__inputs}>
         <Input
           placeholder='Name'
@@ -25,13 +30,20 @@ export const ContactForm = () => {
           value={emailInputValue}
           onChange={setEmailInputValue}
         />
+
+        <textarea
+          name="question"
+          id="question"
+          className={styles.form__question}
+          placeholder='Enter Your Question Here .....'
+        />
       </div>
 
       <Button
         type='submit'
         buttonClassName={styles.form__submit}
       >
-        Schedule a call
+        Send your message
       </Button>
     </form>
   )

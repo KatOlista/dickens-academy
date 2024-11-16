@@ -1,0 +1,22 @@
+.faq {
+  padding-top: 50px;
+  padding-bottom: 40px;
+
+  &__content {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  &__questions {
+    flex: 53.9%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__form {
+    flex: 40.6%;
+  }
+}

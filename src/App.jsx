@@ -3,6 +3,8 @@ import {
   Advantages,
   Contact,
   Courses,
+  FAQ,
+  Footer,
   Header,
   Hero,
   Testimonials
@@ -27,6 +29,10 @@ export const App = () => {
       <Contact />
 
       <Testimonials />
+
+      <FAQ />
+
+      <Footer />
     </>
   )
 }

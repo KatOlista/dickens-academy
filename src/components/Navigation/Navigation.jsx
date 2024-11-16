@@ -3,18 +3,15 @@ import { Button } from '../'
 import styles from './Navigation.module.scss'
 
 import Shevron from '../../assets/icons/shevron.svg?react'
+import { scrollIntoView } from '../../utils/'
 
 export const Navigation = () => {
-  const scrollIntoViewHandler = (id) => {
-    document.querySelector(id)?.scrollIntoView(true);
-  };
-
   return (
     <nav className={styles.navigation}>
       <ul className={styles.navigation__list}>
         <li className={styles.navigation__li}>
           <Button
-            onClick={() => scrollIntoViewHandler('#Home')}
+            onClick={() => scrollIntoView('#Home')}
             buttonClassName={styles.navigation__button}
           >
             Home
@@ -23,7 +20,7 @@ export const Navigation = () => {
 
         <li className={styles.navigation__li}>
           <Button
-            onClick={() => scrollIntoViewHandler('#Courses')}
+            onClick={() => scrollIntoView('#Courses')}
             buttonClassName={styles.navigation__button}
           >
             Courses <Shevron className={styles.navigation__shevron} />
@@ -32,7 +29,7 @@ export const Navigation = () => {
 
         <li className={styles.navigation__li}>
           <Button
-            onClick={() => scrollIntoViewHandler('#About')}
+            onClick={() => scrollIntoView('#About')}
             buttonClassName={styles.navigation__button}
           >
             About
@@ -41,7 +38,7 @@ export const Navigation = () => {
 
         <li className={styles.navigation__li}>
           <Button
-            onClick={() => scrollIntoViewHandler('#Contact')}
+            onClick={() => scrollIntoView('#Contact')}
             buttonClassName={styles.navigation__button}
           >
             Contact us

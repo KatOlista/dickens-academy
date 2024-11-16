@@ -117,3 +117,26 @@ export const TESTIMONIALS = [
     feedback: 'Lorem ipsum dolor sit amet consectetur. Sed commodo lorem sit nec ut. Habitant mattis in vitae sagittis maecenas sed. Sed sit posuere sed sit rhoncus. Nunc leo eu volutpat laoreet est arcu odio vitae egestas. Porttitor urna.'
   }
 ];
+
+export const FAQS = [
+  {
+    id: 1,
+    title: 'Lorem ipsum dolor sit amet consectetur. Bibendum proin',
+    description: 'Lorem ipsum dolor sit amet consectetur. Ipsum lacus nulla in eget sit. Lacus iaculis sed mollis mi massa tortor scelerisque sed amet. Turpis et sit tincidunt eget. Dolor nisl fermentum cras erat nisl facilisis. Et.'
+  },
+  {
+    id: 2,
+    title: 'Lorem ipsum dolor sit amet consectetur. Bibendum proin',
+    description: 'Lorem ipsum dolor sit amet consectetur. Ipsum lacus nulla in eget sit. Lacus iaculis sed mollis mi massa tortor scelerisque sed amet. Turpis et sit tincidunt eget. Dolor nisl fermentum cras erat nisl facilisis. Et.'
+  },
+  {
+    id: 3,
+    title: 'Lorem ipsum dolor sit amet consectetur. Bibendum proin',
+    description: 'Lorem ipsum dolor sit amet consectetur. Ipsum lacus nulla in eget sit. Lacus iaculis sed mollis mi massa tortor scelerisque sed amet. Turpis et sit tincidunt eget. Dolor nisl fermentum cras erat nisl facilisis. Et.'
+  },
+  {
+    id: 4,
+    title: 'Lorem ipsum dolor sit amet consectetur. Bibendum proin',
+    description: 'Lorem ipsum dolor sit amet consectetur. Ipsum lacus nulla in eget sit. Lacus iaculis sed mollis mi massa tortor scelerisque sed amet. Turpis et sit tincidunt eget. Dolor nisl fermentum cras erat nisl facilisis. Et.'
+  }
+]
