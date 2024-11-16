@@ -1,4 +1,4 @@
-import { Button, LinkWithArrow, ProgrammItem, Subtitle } from '..'
+import { Button, LinkWithArrow, ProgramItem, Subtitle } from '..'
 
 import styles from './CourseItem.module.scss'
 
@@ -47,7 +47,7 @@ export const CourseItem = ({ course }) => {
 
       <ul className={styles.item__list}>
         {lists.map(list => (
-          <ProgrammItem key={list.id} list={list} />
+          <ProgramItem key={list.id} list={list} />
         ))}
       </ul>
 

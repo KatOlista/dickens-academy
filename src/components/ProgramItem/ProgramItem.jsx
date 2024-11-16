@@ -1,15 +1,15 @@
-import styles from './ProgrammItem.module.scss'
+import styles from './ProgramItem.module.scss'
 
 import ListMarker from '../../assets/icons/list-marker.svg?react'
 
-export const ProgrammItem = ({ list }) => {
+export const ProgramItem = ({ list }) => {
   const {listTitle, programs} = list
 
   return (
-    <li className={styles.programm}>
-      <p className={styles.programm__title}>{listTitle}</p>
+    <li className={styles.program}>
+      <p className={styles.program__title}>{listTitle}</p>
 
-      <ul className={styles.programm__list}>
+      <ul className={styles.program__list}>
         {programs.map(program => (
           <li key={program}>
             <span>
