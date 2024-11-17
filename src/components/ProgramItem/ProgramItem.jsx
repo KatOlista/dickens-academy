@@ -12,9 +12,7 @@ export const ProgramItem = ({ list }) => {
       <ul className={styles.program__list}>
         {programs.map(program => (
           <li key={program}>
-            <span>
-              <ListMarker />
-            </span>
+            <ListMarker />
 
             {program}
           </li>

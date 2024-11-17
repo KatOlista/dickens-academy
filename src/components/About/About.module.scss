@@ -64,7 +64,8 @@
   }
 
   @media (min-width: 768px) {
-    padding-block: 50px;
+    padding-top: 50px;
+    padding-bottom: 49px;
 
     &__subtitle {
       font-size: 30px;
@@ -147,7 +148,7 @@
     }
 
     &__result {
-      padding: 33px 12% 60px;
+      padding: 32px 12% 60px;
 
       span {
         font-size: 42px;
