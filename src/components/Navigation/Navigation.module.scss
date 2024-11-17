@@ -65,6 +65,7 @@
 
     &__button {
       &:hover {
+        padding-inline: 10px;
         color: var(--darkBlue100);
         transform: scale(1);
       }

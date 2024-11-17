@@ -1,5 +1,5 @@
 .header {
-  padding: 16px 0;
+  padding-block: 11px;
   position: relative;
 
   &__content {
@@ -70,6 +70,7 @@
       padding: 14px 30px;
       border-radius: 14px;
       font-size: 20px;
+      line-height: 150%;
     }
   }
 }
