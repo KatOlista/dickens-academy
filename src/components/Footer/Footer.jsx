@@ -21,7 +21,7 @@ export const Footer = () => {
                 onClick={() => scrollIntoView('#Courses')}
                 buttonClassName={styles.footer__button}
               >
-                Courses
+                Course
               </Button>
             </li>
 
