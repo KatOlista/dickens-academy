@@ -22,13 +22,9 @@
     flex: 40.6%;
   }
 
-  @media (min-width: 990px) {
+  @media (min-width: 1440px) {
     &__content {
-      padding-top: 20px;
-      display: flex;
       flex-direction: row;
-      justify-content: space-between;
-      gap: 24px;
     }
   }
 }

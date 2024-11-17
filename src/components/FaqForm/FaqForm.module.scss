@@ -1,6 +1,6 @@
 .form {
   margin: 0 auto;
-  padding: 58px 20px;
+  padding: 59px 20px;
   max-width: 768px;
   border-radius: 14px;
   text-align: center;
@@ -12,6 +12,7 @@
     text-transform: uppercase;
     font-weight: 500;
     font-size: 24px;
+    line-height: 150%;
     color: var(--white);
   }
 
@@ -33,14 +34,17 @@
     padding: 18px 14px;
     width: 100%;
     min-height: 114px;
+    font-size: 18px;
+    line-height: 150%;
     display: block;
     border-radius: 4px;
     background-color: var(--white);
   }
 
   &__submit {
-    padding: 14px 20px;
+    padding: 14px 30px;
     border-radius: 14px;
+    font-size: 20px;
     background-color: var(--white);
     color: var(--darkBlue100);
   }

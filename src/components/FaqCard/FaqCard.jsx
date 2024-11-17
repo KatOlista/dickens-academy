@@ -20,9 +20,19 @@ export const FaqCard = ({ faq }) => {
   };
 
   return (
-    <li className={styles.card}>
+    <li
+      className={cn(
+        styles.card,
+        { [styles.card__padding]: isOpen },
+      )}
+    >
       <div className={styles.card__info}>
-        <h5 className={styles.card__title}>
+        <h5
+          className={cn(
+            styles.card__title,
+            { [styles['card__title-padding']]: isOpen },
+          )}
+        >
           {faq.title}
         </h5>
 

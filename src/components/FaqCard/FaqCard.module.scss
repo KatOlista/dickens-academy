@@ -6,13 +6,22 @@
   border-radius: 16px;
   border: 1px solid var(--darkBlue100);
 
+  transition: all 0.3s ease;
+
   &__info {
     text-align: left;
   }
 
   &__title {
+    padding-top: 5px;
     font-weight: 500;
     font-size: 20px;
+
+    transition: all 0.3s ease;
+  }
+
+  &__title-padding {
+    padding-top: 0;
   }
 
   &__hr {
@@ -67,14 +76,18 @@
   }
 
   @media (min-width: 990px) {
-    padding: 35px 40px;
+    padding: 30px 40px;
+
+    &__padding {
+      padding: 40px;
+    }
 
     &__hr {
       margin-block: 30px;
     }
 
     &__visible {
-      padding-bottom: 140px;
+      padding-bottom: 136px;
     }
   }
 }
