@@ -2,7 +2,7 @@
   padding-block: 30px;
 
   &__header {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,22 +12,18 @@
     padding-top: 10px;
   }
 
-  &__picture {
-    flex: 50%;
-    border-radius: 20px;
-    overflow: hidden;
-  }
-
   &__image {
-    width: 100%;
+    flex: 48.88%;
+    border-radius: 14px;
   }
 
   &__info {
     padding-top: 15px;
-    flex: 50%;
+    flex: 49.25%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 13px;
     color: var(--white);
   }
 
@@ -38,7 +34,8 @@
     text-align: left;
   }
 
-  &__title {
+  &__subtitle {
+    padding-bottom: 10px;
     font-family: var(--second-family);
     font-weight: 500;
     font-size: 24px;
@@ -69,7 +66,7 @@
   @media (min-width: 768px) {
     padding-block: 50px;
 
-    &__title {
+    &__subtitle {
       font-size: 30px;
     }
 
@@ -112,7 +109,7 @@
       }
     }
 
-    &__title {
+    &__subtitle {
       font-size: 26px;
     }
 
@@ -133,28 +130,27 @@
 
   @media (min-width: 1440px) {
     &__team {
-      padding: 40px 32px 40px 34px;
+      padding: 37px 32px 32px 34px;
 
       p {
         font-size: 18px;
       }
     }
 
-    &__title {
-      padding-bottom: 20px;
+    &__header {
+      padding-bottom: 2px;
+    }
+
+    &__subtitle {
+      padding-bottom: 21px;
       font-size: 36px;
     }
 
     &__result {
-      padding: 40px 12% 50px;
-      flex: 40%;
-      border-radius: 14px;
-      background-color: var(--darkBlue100);
+      padding: 33px 12% 60px;
 
       span {
-        font-family: var(--second-family);
         font-size: 42px;
-        line-height: 150%;
       }
     }
   }
