@@ -26,7 +26,7 @@ export const Testimonials = () => {
             loop
 
             autoplay={{
-              delay: 3000,
+              delay: 300000,
             }}
 
             pagination={{
@@ -44,11 +44,10 @@ export const Testimonials = () => {
             breakpoints={{
               320: {
                 slidesPerView: 1,
-                spaceBetween: 20
               },
               768: {
                 slidesPerView: 2,
-                spaceBetween: 40
+                spaceBetween: 24
               }
             }}
           >
