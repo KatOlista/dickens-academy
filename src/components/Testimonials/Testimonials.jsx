@@ -26,7 +26,7 @@ export const Testimonials = () => {
             loop
 
             autoplay={{
-              delay: 300000,
+              delay: 3000,
             }}
 
             pagination={{
